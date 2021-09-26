@@ -1,0 +1,42 @@
+<form></form><!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form name="form1" method="post" action="">
+  <p>Question 1:</p>
+  <p>1. Which is a valid variable declaration and assignment:</p>
+  <p>
+    <label>
+		<input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+      VAR userName = &quot;&quot;;</label>
+    <br>
+    <label id="q1-correct">
+      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+      var userName = &quot;&quot;;</label><br>
+    <label>
+      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+      let 1name  = &quot;Bill&quot;;</label>
+    <br>
+    <label>
+      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3">
+      var my name = &quot;Bob&quot;
+    </label>
+  </p>
+  <p>
+    <input type="button" name="button" id="button" value="Check" onClick="checkQ1()">
+    <br>
+  </p>
+</form>
+	
+	<script>
+		function checkQ1(){
+			document.getElementById("q1-correct").style.color = "green";
+		}
+	</script>
+	
+</body>
+</html>
